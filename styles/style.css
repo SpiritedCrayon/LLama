@@ -1,0 +1,167 @@
+/* This is your css file. */
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+.header_one {
+    text-align: center;
+    text-decoration: underline;
+    transition: 300ms;
+    color: black;
+    margin-top: 0rem;
+    font-size: 60px;
+    padding: 100px;
+}
+
+.header_one:hover {
+    text-shadow: blue 0 2px 7px;
+}
+
+.gradient-background {
+    width: 100%;
+    height: 910vh;
+    background: linear-gradient(to bottom right, #800080, #3498db);
+}
+
+#luv {
+    color: red;
+}
+
+.para-1 {
+    text-align: center;
+    font-size: 24px;
+    color:black;
+    transition: 300ms;
+    padding: 20px;
+}
+
+.para-1:hover {
+    color: gold;
+    text-decoration: overline;
+    text-decoration-color: gold ;
+}
+
+.llama-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 80px;
+    padding: 20px;
+}
+
+.llama-p {
+    text-align: center;
+    font-size: 23px;
+    transition: 300ms;
+}
+
+.llama-p:hover {
+    color: gold;
+    text-decoration-color: gold ;
+    text-decoration:underline;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.spinny-logo {
+    width: 100px;
+    height: auto; 
+    animation: spin 2s linear infinite; 
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom right, #800080, #3498db);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.spinny-logo {
+    width: 100px;
+    height: auto; 
+    animation: spin 2s linear infinite; 
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
